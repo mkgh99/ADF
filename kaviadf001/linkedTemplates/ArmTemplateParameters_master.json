@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "kaviadf001"
+		},
+		"LS_ADFLinkedLayer1_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSQLDB_password": {
+			"value": ""
+		},
+		"LS_Blob_Proj2_connectionString": {
+			"value": ""
+		},
+		"LS_Databricks_accessToken": {
+			"value": ""
+		},
+		"LS_ADFLinkedLayer1_properties_typeProperties_url": {
+			"value": "https://sinksa002.dfs.core.windows.net/"
+		},
+		"LS_AzureSQLDB_properties_typeProperties_server": {
+			"value": "kavisqlserver001.database.windows.net"
+		},
+		"LS_AzureSQLDB_properties_typeProperties_database": {
+			"value": "kavisqldb002"
+		},
+		"LS_AzureSQLDB_properties_typeProperties_userName": {
+			"value": "kavisql001"
+		},
+		"LS_Databricks_properties_typeProperties_existingClusterId": {
+			"value": "0216-044229-88fk6zmw"
+		},
+		"eventtrigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/047f8c8f-8a54-4975-b9b0-9768e63c14bf/resourceGroups/myrg/providers/Microsoft.Storage/storageAccounts/srcsa001"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
