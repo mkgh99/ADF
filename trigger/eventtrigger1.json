@@ -1,0 +1,20 @@
+{
+	"name": "eventtrigger1",
+	"properties": {
+		"annotations": [
+			"event1"
+		],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/047f8c8f-8a54-4975-b9b0-9768e63c14bf/resourceGroups/myrg/providers/Microsoft.Storage/storageAccounts/srcsa001",
+			"events": [
+				"Microsoft.Storage.BlobDeleted",
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
